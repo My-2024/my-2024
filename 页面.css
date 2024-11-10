@@ -1,0 +1,78 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    background-color: rgba(0, 0, 179,0.1);
+    
+}
+
+
+.a{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    
+color:rgb(1, 0, 0);
+
+font: italic bold 16px 微软雅黑;
+
+}
+
+.ah2{
+color:black;
+text-indent: 2em;
+
+
+}
+.title1{
+
+
+    text-align: center;
+}
+
+
+
+
+
+.b{
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+div>span{
+
+font-style:normal ;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 1000px;
+    height:1000px;
+    align-items: baseline;
+
+}
+.item1{
+    order: 1;
+    background-image: url(将进酒.jpg);border-image-width: auto;
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    flex-shrink: 1;
+    flex-basis: auto;
+}    
+.item2{
+    order: 1;
+    
+    background-image: url(将进酒文本1.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    flex-shrink: 1;
+    flex-basis: auto;
+   
+}
