@@ -1,0 +1,53 @@
+.all{
+    width: 1700px;
+    height: 5000px;
+}
+.header{
+    width: 1700px;
+    height: 140px;
+    background-color: #fff;
+}
+.top{
+    width: 1700px;
+    height: 40px;
+    background-color: #333;
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.top-front{
+    width: 70%;
+}
+.top-back{
+    width: 25%;
+}
+.bottom{
+    width: 1700px;
+    height: 100px;
+    background-color: aqua;
+    line-height:100px ;
+}
+.logo{
+    
+    background-image: url(小米商标1.jpg);
+    width: 70px; ;
+    height: 52px;
+    float: left;
+    
+
+
+
+
+}
+a{
+    color:#b0b0b0;
+    text-decoration:none ;
+}
+.middle{
+    width:1700px;
+    height: 670px;
+    background-color: rgb(231, 180, 231);
+
+}
