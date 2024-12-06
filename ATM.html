@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<body>
+    <h1>ATM</h1><br>
+<script>
+    var money=0;
+    while(true)
+    {
+        var service = prompt('ATM\n 办理业务类型\n 1.存钱\n 2.取钱\n 3.查询余额\n 4.退出\n')
+        switch(service)
+        {
+                case '1':
+                    var save = prompt('输入存钱金额：');
+                   money += parseFloat(save);
+                    alert("您已成功存入"+save+"元。");
+                    break;
+                case '2':
+                    var withdraw = prompt('输入取钱金额：');
+                    if (withdraw > money) {
+                        alert("余额不足");
+                    } else {
+                        money = money- parseFloat(withdraw);
+                        alert("您已取出"+withdraw+"元。");
+                    }
+                    break;
+                case '3':
+                    alert("您的余额为"+money+"元。");
+                    break;
+                case '4':
+                    break;
+            }
+        }
+
+</script>
+
+    
+</body>
+</html>
